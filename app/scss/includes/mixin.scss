@@ -1,0 +1,10 @@
+@function pxToRem($size, $customFontSize) {
+  $remSize: $size / $customFontSize;
+
+  @return #{$remSize}rem;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity);
+}
