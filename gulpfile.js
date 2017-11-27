@@ -21,7 +21,7 @@ var minifyCss = require('gulp-minify-css');
 // Start browserSync server
 gulp.task('browserSync', function() {
   browserSync({
-    port: 9000,
+    port: 3000,
     server: {
       baseDir: 'static'
     }
